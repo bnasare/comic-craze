@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.container h3 {
+    margin: 0;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.container p {
+    /* margin: 0; */
+    letter-spacing: 1px;
+    margin: 50px;
+}
+
+.container button {
+    background-color: blue;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-size: medium;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.container button:active {
+    transform: scale(0.95);
+}
+
+.container button:focus {
+    outline: 0;
+}
+
+.container .jokes {
+    text-align: center;
+}
